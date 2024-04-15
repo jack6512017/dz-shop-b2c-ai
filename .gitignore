@@ -1,0 +1,14 @@
+node_modules
+dist
+.eslintcache
+.pnpm-lock.yaml
+*.local
+.history
+.husky
+.hbuilderx
+
+
+# 编辑器目录和文件
+.idea
+.hbuilderx
+pnpm-lock.yaml

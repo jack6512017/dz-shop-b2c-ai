@@ -1,0 +1,54 @@
+{
+	/* 根选项 */
+	"include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"], // 指定被编译文件所在的目录
+	"exclude": [], // 指定不需要被编译的目录
+	//使用小技巧：在填写路径时 ** 表示任意目录， * 表示任意文件。
+
+	/* 项目选项 */
+	"compilerOptions": {
+		"target": "esnext", // 目标语言的版本
+		"useDefineForClassFields": true, //发出符合ecmascript标准的类字段
+		"module": "esnext", // 生成代码的模板标准
+		"moduleResolution": "node", //指定TypeScript如何从给定的模块说明符中查找文件
+		"jsx": "preserve", //指定生成什么JSX代码。
+		"sourceMap": true, //为发出的JavaScript文件创建源映射文件。
+		"esModuleInterop": true, // 允许export=导出，由import from 导入
+		"lib": ["esnext", "dom"], // TS需要引用的库
+		"types": ["@dcloudio/types"],
+		// "allowJs": true, // 允许编译器编译JS，JSX文件
+		// "checkJs": false, // 允许在JS文件中报错，通常与allowJS一起使用
+		"removeComments": true, // 删除注释
+		"paths": {
+			"@/*": ["./src/*"]
+		}, //指定一组条目，它们将导入重新映射到其他查找位置。
+
+		/* 严格检查选项 */
+		"strict": true, // 开启所有严格的类型检查
+		"alwaysStrict": true, // 在代码中注入'use strict'
+		"noImplicitAny": true, // 不允许隐式的any类型
+		"noImplicitThis": true, // 不允许this有隐式的any类型
+		"strictNullChecks": true, // 在进行类型检查时，请考虑null和undefined。
+		"strictBindCallApply": true, // 检查bind、call和apply方法的参数是否与原始函数匹配。
+		"strictFunctionTypes": true, // 在给函数赋值时，要确保参数和返回值是子类型兼容的。
+		"strictPropertyInitialization": true, // 类的实例属性必须初始化
+
+		/* 额外检查 */
+		"noUnusedLocals": true, //是否检查未使用的局部变量
+		"noUnusedParameters": true, //是否检查未使用的参数
+		"noImplicitReturns": true, //检查函数是否不含有隐式返回值
+		"noImplicitOverride": true, //是否检查子类继承自基类时，其重载的函数命名与基类的函数不同步问题
+		"noFallthroughCasesInSwitch": true, //检查switch中是否含有case没有使用break跳出
+		"noUncheckedIndexedAccess": true, //是否通过索引签名来描述对象上有未知键但已知值的对象
+		"noPropertyAccessFromIndexSignature": false, //是否通过" . “(obj.key) 语法访问字段和"索引”( obj[“key”])， 以及在类型中声明属性的方式之间的一致性
+
+		/* 实验选项 */
+		"experimentalDecorators": true, //是否启用对装饰器的实验性支持，装饰器是一种语言特性，还没有完全被 JavaScript 规范批准
+		"emitDecoratorMetadata": true, //为装饰器启用对发出类型元数据的实验性支持
+
+		/* 高级选项 */
+		"forceConsistentCasingInFileNames": true, //是否区分文件系统大小写规则
+		"extendedDiagnostics": false, //是否查看 TS 在编译时花费的时间
+		"noEmitOnError": true, //有错误时不进行编译
+		"resolveJsonModule": true //是否解析 JSON 模块
+	}
+}

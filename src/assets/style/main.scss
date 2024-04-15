@@ -1,0 +1,13 @@
+@import 'auxiliary';
+@import 'mixin';
+@import 'flex';
+@import 'common';
+@import 'style.vue';
+
+html,
+body {
+  &.gray-mode {
+    filter: grayscale(100%);
+    filter: progid:dximagetransform.microsoft.basicimage(grayscale=1);
+  }
+}

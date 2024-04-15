@@ -1,0 +1,755 @@
+[
+    {
+        "label":"工商银行",
+		"value": 0
+    },
+	{
+	    "label":"农业银行",
+		"value": 0
+	},
+	{
+	    "label":"中国银行",
+		"value": 1
+	},
+    {
+        "label":"建设银行",
+		"value": 1
+    },
+	{
+	    "label":"交通银行",
+		"value": 1
+	},
+	{
+	    "label":"光大银行",
+		"value": 1
+	},
+	{
+	    "label":"招商银行",
+		"value": 0
+	},
+	{
+	    "label":"邮储银行",
+		"value": 1
+	},
+	{
+	    "label":"浦发银行",
+		"value": 1
+	},
+	{
+	    "label":"广发银行",
+		"value": 1
+	},
+	{
+	    "label":"兴业银行",
+		"value": 1
+	},
+	{
+	    "label":"华夏银行",
+		"value": 1
+	},
+	{
+	    "label":"民生银行",
+		"value": 1
+	},
+	{
+	    "label":"中信银行",
+		"value": 1
+	},
+	{
+	    "label":"平安银行",
+		"value": 1
+	},
+	{
+	    "label":"恒丰银行",
+		"value": 1
+	},
+	{
+	    "label":"浙商银行",
+		"value": 1
+	},
+	{
+	    "label":"上海银行",
+		"value": 1
+	},
+	{
+	    "label":"北京银行",
+		"value": 0
+	},
+	{
+	    "label":"东莞农村商业银行",
+		"value": 1
+	},
+	{
+	    "label":"东莞银行",
+		"value": 1
+	},
+	{
+	    "label":"广东南粤银行",
+		"value": 1
+	},
+	{
+	    "label":"广东省农村信用社联合社",
+		"value": 1
+	},
+	{
+	    "label":"广州农村商业银行",
+		"value": 1
+	},
+	{
+	    "label":"广州银行",
+		"value": 1
+	},
+	{
+	    "label":"顺德农商银行",
+		"value": 1
+	},
+	{
+	    "label":"珠海华润银行",
+		"value": 1
+	},
+	{
+	    "label":"深圳农村商业银行",
+		"value": 1
+	},
+	{
+	    "label":"上海农村商业银行",
+		"value": 1
+	},
+	{
+	    "label":"北京农村商业银行",
+		"value": 1
+	},
+	{
+	    "label":"常熟农村商业银行",
+		"value": 1
+	},
+	{
+	    "label":"江南农村商业银行",
+		"value": 1
+	},
+	{
+	    "label":"江苏长江商业银行",
+		"value": 1
+	},
+	
+	{
+	    "label":"江阴农村商业银行",
+		"value": 1
+	},
+	{
+	    "label":"昆山农村商业银行",
+		"value": 1
+	},
+	{
+	    "label":"南京银行",
+		"value": 1
+	},
+	{
+	    "label":"苏州银行",
+		"value": 1
+	},
+	{
+	    "label":"太仓农村商业银行",
+		"value": 1
+	},
+	{
+	    "label":"无锡农村商业银行",
+		"value": 1
+	},
+	{
+	    "label":"吴江农村商业银行",
+		"value": 1
+	},
+	{
+	    "label":"张家港农村商业银行",
+		"value": 1
+	},
+	{
+	    "label":"鞍山银行",
+		"value": 1
+	},
+	{
+	    "label":"朝阳银行",
+		"value": 1
+	},
+	{
+	    "label":"丹东银行",
+		"value": 1
+	},
+	{
+	    "label":"抚顺银行",
+		"value": 0
+	},
+	{
+	    "label":"阜新银行",
+		"value": 1
+	},
+	{
+	    "label":"锦州银行",
+		"value": 1
+	},
+	{
+	    "label":"辽宁省农村信用社",
+		"value": 1
+	},
+	{
+	    "label":"辽阳银行",
+		"value": 1
+	},
+	{
+	    "label":"盛京银行",
+		"value": 1
+	},
+	{
+	    "label":"铁岭银行",
+		"value": 1
+	},
+	{
+	    "label":"营口沿海银行",
+		"value": 1
+	},
+	{
+	    "label":"盘锦商行",
+		"value": 1
+	},
+	{
+	    "label":"营口银行",
+		"value": 1
+	},
+	{
+	    "label":"汉口银行",
+		"value": 1
+	},
+	{
+	    "label":"湖北省农村信用社联合社",
+		"value": 1
+	},
+	{
+	    "label":"武汉农村商业银行",
+		"value": 0
+	},
+	{
+	    "label":"渤海银行",
+		"value": 1
+	},
+	{
+	    "label":"天津滨海农村商业银行",
+		"value": 1
+	},
+	{
+	    "label":"天津农村商业银行",
+		"value": 0
+	},
+	{
+	    "label":"天津银行",
+		"value": 1
+	},
+	{
+	    "label":"杭州银行",
+		"value": 1
+	},
+	{
+	    "label":"湖州银行",
+		"value": 1
+	},
+	{
+	    "label":"嘉兴银行",
+		"value": 1
+	},
+	{
+	    "label":"金华银行",
+		"value": 1
+	},
+	{
+	    "label":"绍兴银行",
+		"value": 1
+	},
+	{
+	    "label":"台州银行",
+		"value": 1
+	},
+	{
+	    "label":"温州银行",
+		"value": 1
+	},
+	{
+	    "label":"浙江稠州商业银行",
+		"value": 1
+	},
+	{
+	    "label":"浙江民泰商业银行",
+		"value": 1
+	},
+	{
+	    "label":"浙江泰隆商业银行",
+		"value": 1
+	},
+	{
+	    "label":"福建省海峡银行",
+		"value": 1
+	},
+	{
+	    "label":"福建省农村信用社联合社",
+		"value": 1
+	},
+	{
+	    "label":"泉州银行",
+		"value": 1
+	},
+	{
+	    "label":"厦门国际银行",
+		"value": 1
+	},
+	{
+	    "label":"厦门银行",
+		"value": 1
+	},
+	{
+	    "label":"德州银行",
+		"value": 1
+	},
+	{
+	    "label":"东营银行",
+		"value": 1
+	},
+	{
+	    "label":"济宁银行",
+		"value": 1
+	},
+	{
+	    "label":"莱商银行",
+		"value": 1
+	},
+	{
+	    "label":"临商银行",
+		"value": 1
+	},
+	{
+	    "label":"齐鲁银行",
+		"value": 1
+	},
+	{
+	    "label":"齐商银行",
+		"value": 1
+	},
+	{
+	    "label":"日照银行",
+		"value": 1
+	},
+	{
+	    "label":"泰安银行",
+		"value": 1
+	},
+	{
+	    "label":"威海市商业银行",
+		"value": 1
+	},
+	{
+	    "label":"潍坊银行",
+		"value": 1
+	},
+	{
+	    "label":"烟台银行",
+		"value": 1
+	},
+	{
+	    "label":"枣庄银行",
+		"value": 1
+	},
+	{
+	    "label":"大连银行",
+		"value": 1
+	},
+	{
+	    "label":"青岛银行",
+		"value": 1
+	},
+	{
+	    "label":"重庆农村商业银行",
+		"value": 1
+	},
+	{
+	    "label":"重庆三峡银行",
+		"value": 1
+	},
+	{
+	    "label":"重庆银行",
+		"value": 1
+	},
+	{
+	    "label":"湖南省农村信用社联合社",
+		"value": 1
+	},
+	{
+	    "label":"河南省农村信用社联合社",
+		"value": 1
+	},
+	{
+	    "label":"焦作中旅银行",
+		"value": 1
+	},
+	{
+	    "label":"洛阳银行",
+		"value": 1
+	},
+	{
+	    "label":"平顶山银行",
+		"value": 1
+	},
+	{
+	    "label":"郑州银行",
+		"value": 1
+	},
+	{
+	    "label":"中原银行",
+		"value": 1
+	},
+	{
+	    "label":"宁波东海银行",
+		"value": 1
+	},
+	{
+	    "label":"宁波通商银行",
+		"value": 1
+	},
+	{
+	    "label":"宁波银行",
+		"value": 1
+	},
+	{
+	    "label":"鄞州银行",
+		"value": 1
+	},
+	{
+	    "label":"海口农商银行",
+		"value": 0
+	},
+	{
+	    "label":"海南省农村信用社联合社",
+		"value": 1
+	},
+	{
+	    "label":"海南银行",
+		"value": 1
+	},
+	{
+	    "label":"成都农商银行",
+		"value": 1
+	},
+	{
+	    "label":"达州市商业银行",
+		"value": 1
+	},
+	{
+	    "label":"泸州市商业银行",
+		"value": 1
+	},
+	{
+	    "label":"凉山商业银行",
+		"value": 1
+	},
+	{
+	    "label":"绵阳市商业银行",
+		"value": 1
+	},
+	{
+	    "label":"四川省农村信用社联合社",
+		"value": 0
+	},
+	{
+	    "label":"四川天府银行",
+		"value": 1
+	},
+	{
+	    "label":"遂宁银行",
+		"value": 1
+	},
+	{
+	    "label":"雅安市商业银行",
+		"value": 1
+	},
+	{
+	    "label":"宜宾市商业银行",
+		"value": 1
+	},
+	{
+	    "label":"长城华西银行",
+		"value": 1
+	},
+	{
+	    "label":"自贡银行",
+		"value": 1
+	},
+	{
+	    "label":"贵阳银行",
+		"value": 1
+	},
+	{
+	    "label":"贵州省农村信用社联合社",
+		"value": 1
+	},
+	{
+	    "label":"贵州银行",
+		"value": 1
+	},
+	{
+	    "label":"陕西省农村信用社联合社",
+		"value": 1
+	},
+	{
+	    "label":"西安银行",
+		"value": 0
+	},
+	{
+	    "label":"长安银行",
+		"value": 1
+	},
+	{
+	    "label":"保定银行",
+		"value": 1
+	},
+	{
+	    "label":"沧州银行",
+		"value": 1
+	},
+	{
+	    "label":"承德银行",
+		"value": 1
+	},
+	{
+	    "label":"邯郸银行",
+		"value": 1
+	},
+	{
+	    "label":"河北省农村信用社联合社",
+		"value": 1
+	},
+	{
+	    "label":"河北银行",
+		"value": 1
+	},
+	{
+	    "label":"衡水银行",
+		"value": 1
+	},
+	{
+	    "label":"廊坊银行",
+		"value": 1
+	},
+	{
+	    "label":"秦皇岛市商业银行",
+		"value": 1
+	},
+	{
+	    "label":"唐山银行",
+		"value": 1
+	},
+	{
+	    "label":"邢台银行",
+		"value": 1
+	},
+	{
+	    "label":"张家口银行",
+		"value": 1
+	},
+	{
+	    "label":"富滇银行",
+		"value": 1
+	},
+	{
+	    "label":"曲靖市商业银行",
+		"value": 1
+	},
+	{
+	    "label":"云南红塔银行",
+		"value": 1
+	},
+	{
+	    "label":"云南省农村信用社联合社",
+		"value": 1
+	},
+	{
+	    "label":"徽商银行",
+		"value": 0
+	},
+	{
+	    "label":"赣州银行",
+		"value": 1
+	},
+	{
+	    "label":"江西省农村信用社联合社",
+		"value": 1
+	},
+	{
+	    "label":"江西银行",
+		"value": 1
+	},
+	{
+	    "label":"九江银行",
+		"value": 1
+	},
+	{
+	    "label":"上饶银行",
+		"value": 1
+	},
+	{
+	    "label":"吉林省农村信用社联合社",
+		"value": 1
+	},
+	{
+	    "label":"吉林银行",
+		"value": 1
+	},
+	{
+	    "label":"广西北部湾银行",
+		"value": 1
+	},
+	{
+	    "label":"广西壮族自治区农村信用社联合社",
+		"value": 1
+	},
+	{
+	    "label":"柳州银行",
+		"value": 1
+	},
+	{
+	    "label":"大同市商业银行",
+		"value": 1
+	},
+	{
+	    "label":"晋城银行",
+		"value": 1
+	},
+	{
+	    "label":"晋商银行",
+		"value": 1
+	},
+	{
+	    "label":"晋中市商业银行",
+		"value": 1
+	},
+	{
+	    "label":"山西省农村信用社",
+		"value": 1
+	},
+	{
+	    "label":"长治市商业银行",
+		"value": 1
+	},
+	{
+	    "label":"包商银行",
+		"value": 0
+	},
+	{
+	    "label":"鄂尔多斯银行",
+		"value": 1
+	},
+	{
+	    "label":"内蒙古银行",
+		"value": 1
+	},
+	{
+	    "label":"乌海银行",
+		"value": 1
+	},
+	{
+	    "label":"内蒙古农村信用社联合社",
+		"value": 1
+	},
+	{
+	    "label":"甘肃省农村信用社联合社",
+		"value": 1
+	},
+	{
+	    "label":"甘肃银行",
+		"value": 1
+	},
+	{
+	    "label":"兰州银行",
+		"value": 1
+	},
+	{
+	    "label":"宁夏银行",
+		"value": 1
+	},
+	{
+	    "label":"石嘴山银行",
+		"value": 1
+	},
+	{
+	    "label":"青海农村信用社联合社",
+		"value": 1
+	},
+	{
+	    "label":"青海银行",
+		"value": 1
+	},
+	{
+	    "label":"哈密市商业银行",
+		"value": 1
+	},
+	{
+	    "label":"库尔勒市商业银行",
+		"value": 1
+	},
+	{
+	    "label":"昆仑银行",
+		"value": 1
+	},
+	{
+	    "label":"乌鲁木齐银行",
+		"value": 1
+	},
+	{
+	    "label":"新疆汇和银行",
+		"value": 1
+	},
+	{
+	    "label":"新疆农村信用社联合社",
+		"value": 1
+	},
+	{
+	    "label":"新疆银行",
+		"value": 1
+	},
+	{
+	    "label":"哈尔滨银行",
+		"value": 1
+	},
+	{
+	    "label":"黑龙江省农村信用社联合社",
+		"value": 1
+	},
+	{
+	    "label":"玉山银行",
+		"value": 1
+	},
+	{
+	    "label":"西藏银行",
+		"value": 1
+	},
+	{
+	    "label":"华侨永亨银行",
+		"value": 1
+	},
+	{
+	    "label":"辽宁辰州汇通村镇银行",
+		"value": 1
+	},
+	{
+	    "label":"大连农村商业银行股份有限公司",
+		"value": 1
+	},
+	{
+	    "label":"宁夏黄河农村商业银行股份有限公司",
+		"value": 1
+	},
+	{
+	    "label":"宁波鄞州农村商业银行股份有限公司",
+		"value": 1
+	},
+	{
+	    "label":"上海华瑞银行股份有限公司",
+		"value": 1
+	},
+]	

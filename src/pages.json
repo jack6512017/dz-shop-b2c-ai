@@ -1,0 +1,1603 @@
+{
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			"^dz-(.*)": "@/components/dz-$1/dz-$1.vue"
+		}
+	},
+	"pages": [{
+			"path": "pages/main/index/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 50,
+				"app-plus": {
+					"bounce": "none",
+					"pullToRefresh": {
+						"support": true,
+						"color": "#E80F2E"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/main/profile/profile",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": true,
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": false,
+					"pullToRefresh": {
+						"support": true,
+						"color": "#E80F2E"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/main/category/category",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 50,
+				"app-plus": {
+					"bounce": "none",
+					"pullToRefresh": {
+						"support": true,
+						"color": "#E80F2E"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/main/discover/discover",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 50,
+				"app-plus": {
+					"bounce": "none",
+					"pullToRefresh": {
+						"support": true,
+						"color": "#E80F2E"
+					}
+				}
+			}
+		}, {
+			"path": "pages/main/cart/cart",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 50,
+				"app-plus": {
+					"bounce": "none",
+					"pullToRefresh": {
+						"support": true,
+						"color": "#E80F2E"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/notFound/404",
+			"style": {
+				"navigationBarTitleText": "Not Found"
+			},
+			"meta": {
+				"ignoreAuth": true
+			}
+		}
+	],
+
+	"subPackages": [{
+			"root": "pages/public",
+			"pages": [{
+				"path": "search/search",
+				"style": {
+					"navigationBarTitleText": ""
+				}
+			}, {
+				"path": "notice/index",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": true,
+					"onReachBottomDistance": 50,
+					"app-plus": {
+						"bounce": "none",
+						"pullToRefresh": {
+							"support": true,
+							"color": "#E80F2E"
+						}
+					}
+				}
+			}, {
+				"path": "notice/detail",
+				"style": {
+					"navigationBarTitleText": ""
+				}
+			}, {
+				"path": "article/article",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": true,
+					"onReachBottomDistance": 50,
+					"app-plus": {
+						"bounce": "none",
+						"pullToRefresh": {
+							"support": true,
+							"color": "#E80F2E"
+						}
+					}
+				}
+			}, {
+				"path": "article/list",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": true,
+					"onReachBottomDistance": 50,
+					"app-plus": {
+						"bounce": "none",
+						"pullToRefresh": {
+							"support": true,
+							"color": "#E80F2E"
+						}
+					}
+				}
+			}, {
+				"path": "article/detail",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false
+				}
+			}, {
+				"path": "share/collection/collection",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false
+				}
+			}, {
+				"path": "share/list/list",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false
+				}
+			}, {
+				"path": "share/detail/detail",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false
+				}
+			},{
+				"path": "vedio/vedio",
+				"style": {
+					"navigationBarTitleText": "",
+					"navigationStyle": "default"
+				}
+			}, {
+				"path": "webview/webview",
+				"style": {
+					"navigationBarTitleText": "",
+					"navigationStyle": "default"
+				}
+			}, {
+				"path": "customPage/customPage",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": true,
+					"onReachBottomDistance": 50,
+					"app-plus": {
+						"bounce": "none",
+						"pullToRefresh": {
+							"support": true,
+							"color": "#E80F2E"
+						}
+					}
+				}
+			}, {
+				"path": "customForm/customForm",
+				"style": {
+					"navigationBarTitleText": "",
+					"app-plus": {
+						"bounce": "none",
+						"pullToRefresh": {
+							"support": true,
+							"color": "#E80F2E"
+						}
+					}
+				}
+			}, {
+					"path": "live/miniProgramLive/miniProgramLive",
+					"style": {
+						"navigationBarTitleText": "",
+						"enablePullDownRefresh": false
+					}
+
+				}]
+		}, {
+			"root": "pages/login",
+			"pages": [{
+				"path": "login/login",
+				"style": {
+					"navigationBarTitleText": ""
+				},
+				"meta": {
+					"ignoreAuth": true
+				}
+			}, {
+				"path": "code/code",
+				"style": {
+					"navigationBarTitleText": ""
+				},
+				"meta": {
+					"ignoreAuth": true
+				}
+			}, {
+				"path": "passwordLogin/passwordLogin",
+				"style": {
+					"navigationBarTitleText": ""
+				}
+			}, {
+				"path": "mobileRegister/mobileRegister",
+				"style": {
+					"navigationBarTitleText": ""
+				}
+			}, {
+				"path": "usernamePasswordLogin/usernamePasswordLogin",
+				"style": {
+					"navigationBarTitleText": ""
+				}
+			}, {
+				"path": "usernameRegister/usernameRegister",
+				"style": {
+					"navigationBarTitleText": ""
+				}
+			}, {
+				"path": "usernameMobileRegister/usernameMobileRegister",
+				"style": {
+					"navigationBarTitleText": ""
+				}
+			}, {
+				"path": "wechat/wechat",
+				"style": {
+					"navigationBarTitleText": ""
+				}
+			}, {
+				"path": "wechatAuthLogin/wechatAuthLogin",
+				"style": {
+					"navigationBarTitleText": ""
+				}
+			}, {
+				"path": "modifyMobileStep/index1",
+				"style": {
+					"navigationBarTitleText": ""
+				}
+			}, {
+				"path": "modifyMobileStep/index2",
+				"style": {
+					"navigationBarTitleText": ""
+				},
+				"meta": {
+					"ignoreAuth": true
+				}
+			}, {
+				"path": "modifyPassword/modifyPassword",
+				"style": {
+					"navigationBarTitleText": ""
+				}
+			}, {
+				"path": "bindMobile/bindMobile",
+				"style": {
+					"navigationBarTitleText": ""
+				}
+			}, {
+				"path": "thirdPartyLogin/thirdPartyLogin",
+				"style": {
+					"navigationBarTitleText": ""
+				}
+			}]
+		}, {
+			"root": "pages/common",
+			"pages": [{
+				"path": "protocol/protocol",
+				"style": {
+					"navigationBarTitleText": ""
+				},
+				"meta": {
+					"ignoreAuth": true
+				}
+			}, {
+				"path": "protocol/detail",
+				"style": {
+					"navigationBarTitleText": ""
+				},
+				"meta": {
+					"ignoreAuth": true
+				}
+			}, {
+				"path": "helper/helper",
+				"style": {
+					"navigationBarTitleText": ""
+				},
+				"meta": {
+					"ignoreAuth": true
+				}
+			}, {
+				"path": "helper/detail",
+				"style": {
+					"navigationBarTitleText": ""
+				},
+				"meta": {
+					"ignoreAuth": true
+				}
+			}]
+		}, {
+			"root": "pages/marketing",
+			"pages": [
+
+				{
+					"path": "joinBuy/index/index",
+					"style": {
+						"navigationBarTitleText": "",
+						"enablePullDownRefresh": true,
+						"onReachBottomDistance": 50,
+						"app-plus": {
+							"bounce": "none",
+							"titleNView": false,
+							"pullToRefresh": {
+								"support": true,
+								"color": "#E80F2E"
+							}
+						}
+					}
+				},
+				{
+					"path": "joinBuy/product/product",
+					"style": {
+						"navigationBarTitleText": ""
+					}
+				},
+				{
+					"path": "joinBuy/group/group",
+					"style": {
+						"navigationBarTitleText": "",
+						"enablePullDownRefresh": true,
+						"onReachBottomDistance": 50,
+						"app-plus": {
+							"bounce": "none",
+							"titleNView": false,
+							"pullToRefresh": {
+								"support": true,
+								"color": "#E80F2E"
+							}
+						}
+					}
+				},
+				{
+					"path": "joinBuy/detail/detail",
+					"style": {
+						"navigationBarTitleText": "",
+						"enablePullDownRefresh": true,
+						"onReachBottomDistance": 50,
+						"app-plus": {
+							"bounce": "none",
+							"titleNView": false,
+							"pullToRefresh": {
+								"support": true,
+								"color": "#E80F2E"
+							}
+						}
+					}
+				},
+				{
+					"path": "limited/index/index",
+					"style": {
+						"navigationBarTitleText": "",
+						"enablePullDownRefresh": true,
+						"onReachBottomDistance": 50,
+						"app-plus": {
+							"bounce": "none",
+							"titleNView": false,
+							"pullToRefresh": {
+								"support": true,
+								"color": "#E80F2E"
+							}
+						}
+					}
+				},
+				{
+					"path": "limited/product/product",
+					"style": {
+						"navigationBarTitleText": ""
+					}
+				},
+				{
+					"path": "discount/index/index",
+					"style": {
+						"navigationBarTitleText": "",
+						"enablePullDownRefresh": true,
+						"onReachBottomDistance": 50,
+						"app-plus": {
+							"bounce": "none",
+							"titleNView": false,
+							"pullToRefresh": {
+								"support": true,
+								"color": "#E80F2E"
+							}
+						}
+					}
+				},
+				{
+					"path": "discount/product/product",
+					"style": {
+						"navigationBarTitleText": ""
+					}
+				},
+				{
+					"path": "discount/activityList/activityList",
+					"style": {
+						"navigationBarTitleText": "",
+						"enablePullDownRefresh": true,
+						"onReachBottomDistance": 50,
+						"app-plus": {
+							"bounce": "none",
+							"titleNView": false,
+							"pullToRefresh": {
+								"support": true,
+								"color": "#E80F2E"
+							}
+						}
+					}
+				},
+				{
+					"path": "discount/list/list",
+					"style": {
+						"navigationBarTitleText": "",
+						"enablePullDownRefresh": true,
+						"onReachBottomDistance": 50,
+						"app-plus": {
+							"bounce": "none",
+							"titleNView": false,
+							"pullToRefresh": {
+								"support": true,
+								"color": "#E80F2E"
+							}
+						}
+					}
+				},
+				{
+					"path": "haggle/product/product",
+					"style": {
+						"navigationBarTitleText": ""
+					}
+				},
+				{
+					"path": "haggle/index/index",
+					"style": {
+						"navigationBarTitleText": "",
+						"enablePullDownRefresh": true,
+						"onReachBottomDistance": 50,
+						"app-plus": {
+							"bounce": "none",
+							"titleNView": false,
+							"pullToRefresh": {
+								"support": true,
+								"color": "#E80F2E"
+							}
+						}
+					}
+				},
+				{
+					"path": "haggle/list/list",
+					"style": {
+						"navigationBarTitleText": "",
+						"enablePullDownRefresh": true,
+						"onReachBottomDistance": 50,
+						"app-plus": {
+							"bounce": "none",
+							"titleNView": false,
+							"pullToRefresh": {
+								"support": true,
+								"color": "#E80F2E"
+							}
+						}
+					}
+				},
+				{
+					"path": "haggle/address/address",
+					"style": {
+						"navigationBarTitleText": "",
+						"enablePullDownRefresh": true,
+						"onReachBottomDistance": 50,
+						"app-plus": {
+							"bounce": "none",
+							"titleNView": false,
+							"pullToRefresh": {
+								"support": true,
+								"color": "#E80F2E"
+							}
+						}
+					}
+				},
+				{
+					"path": "haggle/details/details",
+					"style": {
+						"navigationBarTitleText": "",
+						"enablePullDownRefresh": true,
+						"onReachBottomDistance": 50,
+						"app-plus": {
+							"bounce": "none",
+							"titleNView": false,
+							"pullToRefresh": {
+								"support": true,
+								"color": "#E80F2E"
+							}
+						}
+					}
+				},
+				{
+					"path": "haggle/my/my",
+					"style": {
+						"navigationBarTitleText": "",
+						"enablePullDownRefresh": true,
+						"onReachBottomDistance": 50,
+						"app-plus": {
+							"bounce": "none",
+							"titleNView": false,
+							"pullToRefresh": {
+								"support": true,
+								"color": "#E80F2E"
+							}
+
+						}
+					}
+				},
+
+				{
+					"path": "combination/list/list",
+					"style": {}
+				},
+				{
+					"path": "knowledge/index/index",
+					"style": {
+						"navigationBarTitleText": "",
+						"enablePullDownRefresh": true,
+						"onReachBottomDistance": 50,
+						"app-plus": {
+							"bounce": "none",
+							"titleNView": false,
+							"pullToRefresh": {
+								"support": true,
+								"color": "#E80F2E"
+							}
+						}
+					}
+				},
+				{
+					"path": "knowledge/details/details",
+					"style": {
+						"navigationBarTitleText": ""
+					}
+				},
+				{
+					"path": "knowledge/content/content",
+					"style": {
+						"navigationBarTitleText": ""
+					}
+				},
+				// {
+				// 	"path": "presale/index/index",
+				// 	"style": {
+				// 		"navigationBarTitleText": "",
+				// 		"enablePullDownRefresh": true,
+				// 		"onReachBottomDistance": 50,
+				// 		"app-plus": {
+				// 			"bounce": "none",
+				// 			"titleNView": false,
+				// 			"pullToRefresh": {
+				// 				"support": true,
+				// 				"color": "#E80F2E"
+				// 			}
+				// 		}
+				// 	}
+				// }, 
+				{
+					"path": "testRecommend/index/index",
+					"style": {
+						"navigationBarTitleText": ""
+					}
+				},
+				{
+					"path": "testRecommend/content/content",
+					"style": {
+						"navigationBarTitleText": "",
+						"enablePullDownRefresh": true,
+						"onReachBottomDistance": 50,
+						"app-plus": {
+							"bounce": "none",
+							"titleNView": false,
+							"pullToRefresh": {
+								"support": true,
+								"color": "#E80F2E"
+							}
+						}
+					}
+				},
+				{
+					"path": "testRecommend/scope/scope",
+					"style": {
+						"navigationBarTitleText": ""
+					}
+				},
+				{
+					"path": "luckyWheel/index/index",
+					"style": {
+						"navigationBarTitleText": ""
+					}
+				},
+				{
+					"path": "luckyWheel/updateAddress/updateAddress",
+					"style": {
+						"navigationBarTitleText": ""
+					}
+				}, {
+					"path": "luckyWheel/winList/winList",
+					"style": {
+						"navigationBarTitleText": "",
+						"enablePullDownRefresh": true,
+						"onReachBottomDistance": 50,
+						"app-plus": {
+							"bounce": "none",
+							"titleNView": false,
+							"pullToRefresh": {
+								"support": true,
+								"color": "#E80F2E"
+							}
+						}
+					}
+				}, {
+					"path": "invitation/index/index",
+					"style": {
+						"navigationBarTitleText": "",
+						"enablePullDownRefresh": false
+					}
+				}, {
+					"path": "invitation/poster/poster",
+					"style": {
+						"navigationBarTitleText": "",
+						"enablePullDownRefresh": false
+					}
+				}
+			]
+		},
+		{
+			"root": "pages/order",
+			"pages": [{
+					"path": "create/create",
+					"style": {
+						"navigationBarTitleText": ""
+					}
+				},
+
+				{
+					"path": "index/index",
+					"style": {
+						"navigationBarTitleText": "",
+						"enablePullDownRefresh": true,
+						"onReachBottomDistance": 50,
+						"app-plus": {
+							"bounce": "none",
+							"pullToRefresh": {
+								"support": true,
+								"color": "#E80F2E"
+							}
+						}
+					}
+				},
+				{
+					"path": "detail/detail",
+					"style": {
+						"navigationBarTitleText": ""
+					}
+				},
+
+				{
+					"path": "evaluation/evaluation",
+					"style": {
+						"navigationBarTitleText": ""
+					}
+				},
+				{
+					"path": "evaluation/index/index",
+					"style": {
+						"navigationBarTitleText": ""
+					}
+				},
+				{
+					"path": "evaluation/detail/detail",
+					"style": {
+						"navigationBarTitleText": ""
+					}
+				},
+				{
+					"path": "evaluation/status/status",
+					"style": {
+						"navigationBarTitleText": ""
+					}
+				},
+				{
+					"path": "productExpressDetails/productExpressDetails",
+					"style": {
+						"navigationBarTitleText": ""
+					}
+				},
+				{
+					"path": "refund/index",
+					"style": {
+						"navigationBarTitleText": "",
+						"enablePullDownRefresh": true,
+						"onReachBottomDistance": 50,
+						"app-plus": {
+							"bounce": "none",
+							"titleNView": false,
+							"pullToRefresh": {
+								"support": true,
+								"color": "#E80F2E"
+							}
+						}
+					}
+				},
+				{
+					"path": "refund/refund",
+					"style": {
+						"navigationBarTitleText": ""
+					}
+				},
+				{
+					"path": "refund/list",
+					"style": {
+						"navigationBarTitleText": ""
+					}
+				}, {
+					"path": "refund/detail",
+					"style": {
+						"navigationBarTitleText": ""
+					}
+				},
+				{
+					"path": "refund/shipping/shipping",
+					"style": {
+						"navigationBarTitleText": ""
+					}
+				},
+				{
+					"path": "refund/apply",
+					"style": {
+						"navigationBarTitleText": ""
+					}
+				},
+				{
+					"path": "pay/pay",
+					"style": {}
+				},
+				{
+					"path": "pay/recharge",
+					"style": {
+						"navigationBarTitleText": "",
+						"enablePullDownRefresh": false
+					}
+
+				},
+				{
+					"path": "pay/knowledgePay",
+					"style": {
+						"navigationBarTitleText": "",
+						"enablePullDownRefresh": false
+					}
+
+				},
+				{
+					"path": "pay/aliMiddle",
+					"style": {
+						"navigationBarTitleText": "",
+						"enablePullDownRefresh": false
+					}
+
+				},
+				{
+					"path": "pay/level",
+					"style": {
+						"navigationBarTitleText": ""
+					}
+				},
+				{
+					"path": "pickup/pickup",
+					"style": {
+						"navigationBarTitleText": "",
+						"enablePullDownRefresh": false
+					}
+				}
+			]
+		},
+		{
+			"root": "pages/notice",
+			"pages": [{
+				"path": "fail/index",
+				"style": {
+					"navigationBarTitleText": ""
+				},
+				"meta": {
+					"ignoreAuth": true
+				}
+			}, {
+				"path": "success/index",
+				"style": {
+					"navigationBarTitleText": ""
+				},
+				"meta": {
+					"ignoreAuth": true
+				}
+			}, {
+				"path": "paySuccess/paySuccess",
+				"style": {
+					"navigationBarTitleText": ""
+				}
+			}, {
+				"path": "payComplete/payComplete",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false
+				}
+
+			}]
+		},
+		{
+			"root": "pages/user",
+			"pages": [{
+					"path": "memberLevel/memberLevel",
+					"style": {
+						"navigationBarTitleText": ""
+					}
+				},{
+					"path": "account/index/index",
+					"style": {
+						"navigationBarTitleText": ""
+					},
+					"meta": {
+						"ignoreAuth": true
+					}
+				},
+				{
+					"path": "account/creditsLog/creditsLog",
+					"style": {
+						"navigationBarTitleText": "",
+						"enablePullDownRefresh": true,
+						"onReachBottomDistance": 50,
+						"app-plus": {
+							"bounce": "none",
+							"titleNView": false,
+							"pullToRefresh": {
+								"support": true,
+								"color": "#E80F2E"
+							}
+						}
+					},
+					"meta": {
+						"ignoreAuth": true
+					}
+				},
+				{
+					"path": "account/integral/integral",
+					"style": {
+						"navigationBarTitleText": ""
+					},
+					"meta": {
+						"ignoreAuth": true
+					}
+				},
+				{
+					"path": "account/level/level",
+					"style": {
+						"navigationBarTitleText": ""
+					}
+				},
+				{
+					"path": "account/integral/log",
+					"style": {
+						"navigationBarTitleText": ""
+					},
+					"meta": {
+						"ignoreAuth": true
+					}
+				},
+				{
+					"path": "coupon/coupon",
+					"style": {
+						"navigationBarTitleText": "",
+						"enablePullDownRefresh": true,
+						"onReachBottomDistance": 50,
+						"app-plus": {
+							"bounce": "none",
+							"titleNView": false,
+							"pullToRefresh": {
+								"support": true,
+								"color": "#E80F2E"
+							}
+						}
+					}
+				},
+				{
+					"path": "coupon/list",
+					"style": {
+						"navigationBarTitleText": "",
+						"enablePullDownRefresh": true,
+						"onReachBottomDistance": 50,
+						"app-plus": {
+							"bounce": "none",
+							"titleNView": false,
+							"pullToRefresh": {
+								"support": true,
+								"color": "#E80F2E"
+							}
+						}
+					}
+				},
+				{
+					"path": "set/set",
+					"style": {
+						"navigationBarTitleText": ""
+					},
+					"meta": {
+						"ignoreAuth": true
+					}
+				}, {
+					"path": "userInfo/userInfo",
+					"style": {
+						"navigationBarTitleText": ""
+					},
+					"meta": {
+						"ignoreAuth": true
+					}
+				}, {
+					"path": "invoice/invoice",
+					"style": {
+						"navigationBarTitleText": "",
+						"onReachBottomDistance": 50
+					},
+					"meta": {
+						"ignoreAuth": true
+					}
+				}, {
+					"path": "invoice/update",
+					"style": {
+						"navigationBarTitleText": ""
+					},
+					"meta": {
+						"ignoreAuth": true
+					}
+				}, {
+					"path": "invoice/orderInvoice",
+					"style": {
+						"navigationBarTitleText": "",
+						"onReachBottomDistance": 50
+					},
+					"meta": {
+						"ignoreAuth": true
+					}
+				}, {
+					"path": "collect/collect",
+					"style": {
+						"navigationBarTitleText": "",
+						"onReachBottomDistance": 50
+					}
+				}, {
+					"path": "footprint/footprint",
+					"style": {
+						"navigationBarTitleText": "",
+						"onReachBottomDistance": 50
+					}
+				}, {
+					"path": "address/address",
+					"style": {
+						"navigationBarTitleText": "",
+						"onReachBottomDistance": 50
+					}
+				}, {
+					"path": "address/update",
+					"style": {
+						"navigationBarTitleText": "",
+						"onReachBottomDistance": 50
+					}
+				}, {
+					"path": "loading/loading",
+					"style": {
+						"navigationBarTitleText": ""
+					},
+					"meta": {
+						"ignoreAuth": true
+					}
+				}, {
+					"path": "feedback/feedback",
+					"style": {
+						"navigationBarTitleText": ""
+					},
+					"meta": {
+						"ignoreAuth": true
+					}
+				}, {
+					"path": "feedback/create",
+					"style": {
+						"navigationBarTitleText": ""
+					},
+					"meta": {
+						"ignoreAuth": true
+					}
+				}, {
+					"path": "feedback/detail",
+					"style": {
+						"navigationBarTitleText": ""
+					},
+					"meta": {
+						"ignoreAuth": true
+					}
+				}, {
+					"path": "feedback/list",
+					"style": {
+						"navigationBarTitleText": ""
+					},
+					"meta": {
+						"ignoreAuth": true
+					}
+				}, {
+					"path": "notify/index/index",
+					"style": {
+						"navigationBarTitleText": "",
+						"enablePullDownRefresh": true,
+						"onReachBottomDistance": 50,
+						"app-plus": {
+							"bounce": "none",
+							"titleNView": false,
+							"pullToRefresh": {
+								"support": true,
+								"color": "#E80F2E"
+							}
+						}
+					}
+				},
+				{
+					"path": "notify/notify/notify",
+					"onReachBottomDistance": 50,
+					"style": {
+						"navigationBarTitleText": ""
+					}
+				}, {
+					"path": "signin/signin",
+					"style": {
+						"navigationBarTitleText": ""
+					}
+				}, {
+					"path": "setPayPassword/setPayPassword",
+					"style": {
+						"navigationBarTitleText": ""
+					}
+				}, {
+					"path": "virtual/virtual",
+					"style": {
+						"navigationBarTitleText": "",
+						"enablePullDownRefresh": true,
+						"app-plus": {
+							"bounce": "none",
+							"titleNView": false,
+							"pullToRefresh": {
+								"support": true,
+								"color": "#E80F2E"
+							}
+						}
+					}
+				}, {
+					"path": "virtual/detail",
+					"style": {
+						"navigationBarTitleText": "",
+						"enablePullDownRefresh": false
+					}
+				}, {
+					"path": "updateBook/updateBook",
+					"style": {
+						"navigationBarTitleText": "",
+						"enablePullDownRefresh": false
+					}
+				}
+			]
+		},
+		{
+			"root": "pages/product",
+			"pages": [{
+					"path": "detail/detail",
+					"style": {
+						"navigationBarTitleText": ""
+					}
+				},
+				{
+					"path": "list/list",
+					"style": {
+						"navigationBarTitleText": "",
+						"enablePullDownRefresh": true,
+						"onReachBottomDistance": 50,
+						"app-plus": {
+							"bounce": "none",
+							"titleNView": false,
+							"pullToRefresh": {
+								"support": true,
+								"color": "#E80F2E"
+							}
+						}
+					}
+				},
+				{
+					"path": "evaluation/evaluation",
+					"style": {
+						"navigationBarTitleText": "",
+						"onReachBottomDistance": 50
+					}
+				},
+				{
+					"path": "cate/cate",
+					"style":{
+						"navigationBarTitleText": "",
+						"enablePullDownRefresh": true,
+						"onReachBottomDistance": 50,
+						"app-plus": {
+							"bounce": "none",
+							"pullToRefresh": {
+								"support": true,
+								"color": "#E80F2E"
+							}
+						}
+					}
+				}
+				// {
+				// 	"path": "service/index/index",
+				// 	"style": {
+				// 		"navigationBarTitleText": ""
+				// 	}
+				// }, {
+				// 	"path": "service/service/service",
+				// 	"style": {
+				// 		"navigationBarTitleText": ""
+				// 	}
+				// }, {
+				// 	"path": "service/detail/detail",
+				// 	"style": {
+				// 		"navigationBarTitleText": ""
+				// 	}
+				// }
+			]
+		},
+		{
+			"root": "pages/distribution",
+			"pages": [{
+				"path": "index/index",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": true,
+					"onReachBottomDistance": 50,
+					"app-plus": {
+						"bounce": "none",
+						"titleNView": false,
+						"pullToRefresh": {
+							"support": true,
+							"color": "#E80F2E"
+						}
+					}
+				}
+			}, {
+				"path": "child/child",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": true,
+					"onReachBottomDistance": 50,
+					"app-plus": {
+						"bounce": "none",
+						"titleNView": false,
+						"pullToRefresh": {
+							"support": true,
+							"color": "#E80F2E"
+						}
+					}
+				}
+			}, {
+				"path": "regional/apply/apply",
+				"style": {
+					"navigationBarTitleText": ""
+				}
+			}, {
+				"path": "regional/apply/create",
+				"style": {
+					"navigationBarTitleText": ""
+				}
+			}, {
+				"path": "regional/apply/log",
+				"style": {
+					"navigationBarTitleText": ""
+				}
+			}, {
+				"path": "promoterRecord/promoterRecord",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": true,
+					"onReachBottomDistance": 50,
+					"app-plus": {
+						"bounce": "none",
+						"titleNView": false,
+						"pullToRefresh": {
+							"support": true,
+							"color": "#E80F2E"
+						}
+					}
+				}
+			}, {
+				"path": "qrcode/qrcode",
+				"style": {
+					"navigationBarTitleText": ""
+				}
+			}, {
+				"path": "poster/poster",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": true,
+					"onReachBottomDistance": 50,
+					"app-plus": {
+						"bounce": "none",
+						"titleNView": false,
+						"pullToRefresh": {
+							"support": true,
+							"color": "#E80F2E"
+						}
+					}
+				}
+			}, {
+				"path": "brokerage/brokerage",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": true,
+					"onReachBottomDistance": 50,
+					"app-plus": {
+						"bounce": "none",
+						"titleNView": false,
+						"pullToRefresh": {
+							"support": true,
+							"color": "#E80F2E"
+						}
+					}
+				}
+			}, {
+				"path": "brokerage/index",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": true,
+					"onReachBottomDistance": 50,
+					"app-plus": {
+						"bounce": "none",
+						"titleNView": false,
+						"pullToRefresh": {
+							"support": true,
+							"color": "#E80F2E"
+						}
+					}
+				}
+			}, {
+				"path": "brokerage/log",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": true,
+					"onReachBottomDistance": 50,
+					"app-plus": {
+						"bounce": "none",
+						"titleNView": false,
+						"pullToRefresh": {
+							"support": true,
+							"color": "#E80F2E"
+						}
+					}
+				}
+			}, {
+				"path": "brokerage/create",
+				"style": {
+					"navigationBarTitleText": ""
+				}
+			}, {
+				"path": "brokerage/transfer",
+				"style": {
+					"navigationBarTitleText": ""
+				}
+			}, {
+				"path": "brokerage/transferLog",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": true,
+					"onReachBottomDistance": 50,
+					"app-plus": {
+						"bounce": "none",
+						"titleNView": false,
+						"pullToRefresh": {
+							"support": true,
+							"color": "#E80F2E"
+						}
+					}
+				}
+			}, {
+				"path": "bankAccount/bankAccount",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": true,
+					"onReachBottomDistance": 50,
+					"app-plus": {
+						"bounce": "none",
+						"titleNView": false,
+						"pullToRefresh": {
+							"support": true,
+							"color": "#E80F2E"
+						}
+					}
+				}
+			}, {
+				"path": "bankAccount/update",
+				"style": {
+					"navigationBarTitleText": ""
+				}
+			}, {
+				"path": "warehouse/warehouse",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": true,
+					"onReachBottomDistance": 50,
+					"app-plus": {
+						"bounce": "none",
+						"titleNView": false,
+						"pullToRefresh": {
+							"support": true,
+							"color": "#E80F2E"
+						}
+					}
+				}
+			}, {
+				"path": "warehouse/stockLog",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": true,
+					"onReachBottomDistance": 50,
+					"app-plus": {
+						"bounce": "none",
+						"titleNView": false,
+						"pullToRefresh": {
+							"support": true,
+							"color": "#E80F2E"
+						}
+					}
+				}
+			}, {
+				"path": "warehouse/product",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": true,
+					"onReachBottomDistance": 50,
+					"app-plus": {
+						"bounce": "none",
+						"titleNView": false,
+						"pullToRefresh": {
+							"support": true,
+							"color": "#E80F2E"
+						}
+					}
+				}
+			}, {
+				"path": "warehouse/purchaseOrder",
+				"style": {
+					"navigationBarTitleText": ""
+				}
+			}, {
+				"path": "warehouse/pickUpOrder",
+				"style": {
+					"navigationBarTitleText": ""
+				}
+			}, {
+				"path": "warehouse/pickUpOrderCreate",
+				"style": {
+					"navigationBarTitleText": ""
+				}
+			}, {
+				"path": "warehouse/ranking",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": true,
+					"onReachBottomDistance": 50,
+					"app-plus": {
+						"bounce": "none",
+						"titleNView": false,
+						"pullToRefresh": {
+							"support": true,
+							"color": "#E80F2E"
+						}
+					}
+				}
+			}, {
+				"path": "warehouse/levelLog",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": true,
+					"app-plus": {
+						"bounce": "none",
+						"titleNView": false,
+						"pullToRefresh": {
+							"support": true,
+							"color": "#E80F2E"
+						}
+					}
+				}
+			}, {
+				"path": "warehouse/promoterRecord",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": true,
+					"onReachBottomDistance": 50,
+					"app-plus": {
+						"bounce": "none",
+						"titleNView": false,
+						"pullToRefresh": {
+							"support": true,
+							"color": "#E80F2E"
+						}
+					}
+				}
+			},{
+					"path": "yunzhanghu/memberExempted/memberExempted",
+					"style": {
+						"navigationBarTitleText": ""
+					}
+				}, {
+					"path": "yunzhanghu/memberSign/memberSign",
+					"style": {
+						"navigationBarTitleText": ""
+					}
+				}, {
+					"path": "yunzhanghu/card/card",
+					"style": {
+						"navigationBarTitleText": "",
+						"enablePullDownRefresh": true,
+						"onReachBottomDistance": 50,
+						"app-plus": {
+							"bounce": "none",
+							"titleNView": false,
+							"pullToRefresh": {
+								"support": true,
+								"color": "#E80F2E"
+							}
+						}
+					}
+				}, {
+					"path": "yunzhanghu/card/update",
+					"style": {
+						"navigationBarTitleText": ""
+					}
+				},{
+					"path": "yunhuotec/memberSign/memberSign",
+					"style": {
+						"navigationBarTitleText": ""
+					}
+				}, {
+					"path": "yunhuotec/card/card",
+					"style": {
+						"navigationBarTitleText": "",
+						"enablePullDownRefresh": true,
+						"onReachBottomDistance": 50,
+						"app-plus": {
+							"bounce": "none",
+							"titleNView": false,
+							"pullToRefresh": {
+								"support": true,
+								"color": "#E80F2E"
+							}
+						}
+					}
+				}, {
+					"path": "yunhuotec/card/update",
+					"style": {
+						"navigationBarTitleText": ""
+					}
+				}]
+		},
+		{
+			"root": "pages/guide",
+			"pages": [{
+				"path": "guide",
+				"style": {
+					"navigationBarTitleText": ""
+				}
+			}]
+
+		},
+		{
+			"root": "pages/store",
+			"pages": [{
+			"path": "index/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 50,
+				"app-plus": {
+					"bounce": "none",
+					"pullToRefresh": {
+						"support": true,
+						"color": "#E80F2E"
+					}
+				}
+			}
+		},{
+					"path": "luckyWheel/index/index",
+					"style": {
+						"navigationBarTitleText": ""
+					}
+				},
+				{
+							"path": "luckyWheel/index/index2",
+							"style": {
+								"navigationBarTitleText": ""
+							}
+						},
+				{
+					"path": "luckyWheel/winList/winList",
+					"style": {
+						"navigationBarTitleText": "",
+						"enablePullDownRefresh": true,
+						"onReachBottomDistance": 50,
+						"app-plus": {
+							"bounce": "none",
+							"titleNView": false,
+							"pullToRefresh": {
+								"support": true,
+								"color": "#E80F2E"
+							}
+						}
+					}
+				},
+				{
+					"path": "verify/verify",
+					"style": {
+						"navigationBarTitleText": "",
+						"onReachBottomDistance": 50
+					}
+				}
+			]
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "",
+		"navigationStyle": "custom",
+		"navigationBarBackgroundColor": "#ffffff",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#474747",
+		"selectedColor": "#9BC6FC",
+		"backgroundColor": "#FFFFFF",
+		"height": "0px",
+		"list": [{
+			"pagePath": "pages/main/index/index",
+			"text": "首页"
+		}, {
+			"pagePath": "pages/main/category/category",
+			"text": "分类"
+		}, {
+			"pagePath": "pages/main/discover/discover",
+			"text": "商学院"
+		}, {
+			"pagePath": "pages/main/cart/cart",
+			"text": "购物车"
+		}, {
+			"pagePath": "pages/main/profile/profile",
+			"text": "我的"
+		}]
+
+	}
+}
