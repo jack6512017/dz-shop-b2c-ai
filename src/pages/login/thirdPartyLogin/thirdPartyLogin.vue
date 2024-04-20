@@ -195,7 +195,7 @@ onLoad(async (options) => {
 });
 
 onReady(() => {
-	unref(formRef).setRules(rules);
+	unref(formRef)?.setRules(rules);
 });
 
 onShow(() => {

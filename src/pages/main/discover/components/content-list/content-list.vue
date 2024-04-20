@@ -4,7 +4,7 @@
 			<view class="image"><dz-image :src="logo" :width="80" :height="80" :borderRadius="40"></dz-image></view>
 			<view class="right">
 				<view class="name">{{ item.title }}</view>
-				<view class="time">{{ api.timeFormat(item.created_at) }}</view>
+				<view class="time">{{ api.timeFormat(item.created_time) }}</view>
 			</view>
 		</view>
 		<view class="tip" v-if="item.description">{{ item.description }}</view>

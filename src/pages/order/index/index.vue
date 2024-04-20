@@ -963,7 +963,7 @@ function pay(val) {
 
 //复制
 function copy(text) {
-	uni.$api.helper.copy(text);
+	uni.$api.copy(text);
 	uni.$api.toast(uni.$api.language.application.copySuccess);
 }
 

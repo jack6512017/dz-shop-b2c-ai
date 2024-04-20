@@ -241,7 +241,6 @@ function areaConfirm(e: any) {
 }
 
 function handleAddress() {
-	console.log('okk');
 	pickerShow.value = !pickerShow.value;
 }
 
@@ -262,7 +261,7 @@ function handleClear() {
 }
 
 function handleAddressParse() {
-	if (!distinguishValue.value) return uni.api.toast(uni.$api.language.address.noContent);
+	if (!distinguishValue.value) return uni.$api.toast(uni.$api.language.address.noContent);
 
 	let options = {
 		type: 1, // 哪种方式解析，0：正则，1：树查找
@@ -275,7 +274,7 @@ function handleAddressParse() {
 	data.form.address_details = parseResult.detail || '';
 	//获取区域
 	if (parseResult.area) {
-		const province_id = parseResult.province.id.slice(0, 2);
+		const province_id = parseResult.province.id;
 		const city_id = parseResult.city.id;
 		regionCode.value = [province_id, city_id, parseResult.area.id];
 		address.value = parseResult.province.title + ' ' + parseResult.city.title + ' ' + parseResult.area.title;

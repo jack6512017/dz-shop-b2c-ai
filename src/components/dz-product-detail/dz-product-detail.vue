@@ -2522,7 +2522,8 @@ function h5Share() {
 	if (uni.$api.h5IsWechat() && shopSetting.value.wechat_appid != '') {
 		uni.$api.toast(uni.$api.language.application.wxshareTip);
 	} else {
-		if (uni.$api.copy(url)) {
+		if (url) {
+			uni.$api.copy(url);
 			uni.$api.toast(uni.$api.language.application.shareUrlCopySuccess);
 		}
 	}

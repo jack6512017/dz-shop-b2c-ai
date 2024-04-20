@@ -190,6 +190,7 @@ async function sharePost() {
 			y: uni.upx2px(480 - 75),
 			height: uni.upx2px(150),
 			width: uni.upx2px(150),
+			mode: 'aspectFill',
 		});
 		qsc.restore();
 

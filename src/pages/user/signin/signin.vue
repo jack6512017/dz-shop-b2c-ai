@@ -363,6 +363,7 @@ function monthChange(index) {
 }
 
 function detail(gift: string, giftData: string) {
+	if (!data.ruleFormat[giftData]) return;
 	if (gift == 1 && (data.ruleFormat[giftData].name || data.ruleFormat[giftData].remark)) {
 		modalShow.value = true;
 	}

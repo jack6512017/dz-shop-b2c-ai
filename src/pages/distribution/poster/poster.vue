@@ -264,6 +264,7 @@ async function shareFc(item) {
 			y: parseInt(diyStyle.head_portrait_y) * 2 * reduce,
 			height: parseInt(diyStyle.head_portrait_size) * 2 * reduce,
 			width: parseInt(diyStyle.head_portrait_size) * 2 * reduce,
+			mode: 'aspectFill',
 		});
 		qsc.restore();
 

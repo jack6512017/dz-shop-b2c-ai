@@ -2,6 +2,7 @@
 import { onLaunch, onShow, onHide, onError } from '@dcloudio/uni-app';
 import { useUserStore } from '@/state/modules/user';
 import themeConfig from '@/core/config/themeConfig';
+import { getEnvValue } from '@/utils/env';
 
 const userStore = useUserStore();
 const { customerTheme, styleLoadingType } = userStore.getData;
@@ -21,12 +22,33 @@ onShow(() => {
 onHide(() => {
 	console.log('App Hide');
 });
-onError((err) => {
+onError(async (error) => {
+	const errorInfo = error.toString() + '\n';
+	const res = uni.getSystemInfoSync();
+	let sysInfo = '';
+	// #ifdef H5
+	sysInfo = `设备：${res.deviceType}；系统：${res.osName}；浏览器：${res.browserName}；`;
+	// #endif
+	// #ifdef APP-PLUS
+	sysInfo = `手机品牌：${res.deviceBrand}；手机型号：${res.deviceModel}；操作系统版本：${res.osVersion}；客户端平台：${res.osName}；错误描述：${error}；`;
+	// #endif
+	// #ifdef MP-WEIXIN
+	sysInfo = `设备：${res.deviceType}；系统：${res.osName}；`;
+	// #endif
+	let pages = getCurrentPages();
+	let page = pages[pages.length - 1];
+	let pageInfo = 'page：' + page?.route + '；';
+
+	await uni.$api.http.post(uni.$api.apiCommon.clientLogIndex, {
+		client_name: 'APP',
+		client_version: getEnvValue('VITE_VERSION'),
+		error_msg: sysInfo + '\n' + pageInfo + '\n' + errorInfo,
+	});
 	//全局错误监听
 	// #ifdef APP-PLUS
 	plus.runtime.getProperty(plus.runtime.appid, () => {
 		const res = uni.getSystemInfoSync();
-		let errMsg = `手机品牌：${res.deviceBrand}；手机型号：${res.deviceModel}；操作系统版本：${res.osVersion}；客户端平台：${res.osName}；错误描述：${err}`;
+		let errMsg = `手机品牌：${res.deviceBrand}；手机型号：${res.deviceModel}；操作系统版本：${res.osVersion}；客户端平台：${res.osName}；错误描述：${error}`;
 		console.log('发生错误：' + errMsg);
 	});
 	// #endif

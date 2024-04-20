@@ -40,4 +40,6 @@ export default {
 	customerServiceUnread: '/common/customer-service/unread',
 	// 清空客服未读数量，针对第三方客服
 	customerServiceClearUnread: '/common/customer-service/clear-unread',
+	// 记录客户端错误日志
+	clientLogIndex: '/common/client-log/index',
 };

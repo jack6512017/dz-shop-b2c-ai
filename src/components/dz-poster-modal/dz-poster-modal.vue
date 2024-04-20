@@ -472,6 +472,7 @@ async function posterClick() {
 			y: uni.upx2px(38),
 			height: uni.upx2px(136),
 			width: uni.upx2px(136),
+			mode: 'aspectFill',
 		});
 		qsc.restore();
 		// 用户昵称

@@ -34,7 +34,13 @@
 					:icon-style="{ color: '#42E38D', 'margin-right': '30rpx' }"
 					@click="checkboxChange(1)"
 				>
-					<template v-if="payConfig[`pay_${payGroup}_wechatpay_option`].is_rand_sub == 1" #label>
+					<template
+						v-if="
+							payConfig[`pay_${payGroup}_wechatpay_option`].is_rand_sub == 1 &&
+							parseInt(payConfig[`pay_${payGroup}_wechatpay_option`].rand_sub_highest_money)
+						"
+						#label
+					>
 						<view style="color: #e61128"
 							>最高可随机立减{{ parseInt(payConfig[`pay_${payGroup}_wechatpay_option`].rand_sub_highest_money) / 100 }}元</view
 						>
@@ -58,7 +64,13 @@
 					:icon-style="{ color: '#2EAFFF', 'margin-right': '30rpx' }"
 					@click="checkboxChange(2)"
 				>
-					<template v-if="payConfig[`pay_${payGroup}_alipay_option`].is_rand_sub == 1" #label>
+					<template
+						v-if="
+							payConfig[`pay_${payGroup}_alipay_option`].is_rand_sub == 1 &&
+							parseInt(payConfig[`pay_${payGroup}_alipay_option`].rand_sub_highest_money)
+						"
+						#label
+					>
 						<view style="color: #e61128"
 							>最高可随机立减{{ parseInt(payConfig[`pay_${payGroup}_alipay_option`].rand_sub_highest_money) / 100 }}元</view
 						>
