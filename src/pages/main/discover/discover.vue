@@ -140,7 +140,7 @@ onLoad(async () => {
 		const route = list.filter((item) => item.pagePath == `/${pages[pages.length - 1].route}`);
 		title.value = route[0].text;
 	}
-	uni.setNavigationBarTitle({ title: title });
+	uni.setNavigationBarTitle({ title: title.value });
 	missingFace.value = shopSetting.value.store_logo;
 	getShareContent();
 	getShareIndex();

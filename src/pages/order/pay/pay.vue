@@ -146,7 +146,9 @@
 					"
 					center
 					:title="
-						userInfo.promoter.promoterWarehouse ? '货款支付' : api.formatString(language.orderPay.brokeragePay, shopSetting.commission_front_name)
+						userInfo.promoter && userInfo.promoter.promoterWarehouse
+							? '货款支付'
+							: api.formatString(language.orderPay.brokeragePay, shopSetting.commission_front_name)
 					"
 					:label="
 						userInfo.promoter && userInfo.promoter.user_brokerage

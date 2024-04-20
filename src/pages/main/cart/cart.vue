@@ -301,7 +301,7 @@ onLoad(async () => {
 
 onShow(async () => {
 	await initData();
-	if (!userStore.hasLogin || cartList.value.length == 0) {
+	if ((!userStore.hasLogin || cartList.value.length == 0) && !guessYouLikeList.value.length) {
 		page.value = 1;
 		guessYouLikeList.value = [];
 		getGuessYouLikeList();

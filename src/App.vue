@@ -23,7 +23,7 @@ onHide(() => {
 	console.log('App Hide');
 });
 onError(async (error) => {
-	const errorInfo = error.toString() + '\n';
+	const errorInfo = error.toString();
 	const res = uni.getSystemInfoSync();
 	let sysInfo = '';
 	// #ifdef H5
@@ -37,8 +37,10 @@ onError(async (error) => {
 	// #endif
 	let pages = getCurrentPages();
 	let page = pages[pages.length - 1];
-	let pageInfo = 'page：' + page?.route + '；';
-
+	let pageInfo = 'page：unknown；';
+	if (page) {
+		pageInfo = 'page：' + page.route + '；';
+	}
 	await uni.$api.http.post(uni.$api.apiCommon.clientLogIndex, {
 		client_name: 'APP',
 		client_version: getEnvValue('VITE_VERSION'),
