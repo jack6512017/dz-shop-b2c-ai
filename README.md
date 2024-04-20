@@ -8,7 +8,7 @@
 
 ### 运行环境
 
-本地环境需要安装 Node.js、pnpm（或cpm）。
+本地环境需要安装 Node.js、pnpm（或cnpm）。
 
 #### 安装Node.js
 
