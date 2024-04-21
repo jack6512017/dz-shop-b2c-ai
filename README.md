@@ -2,10 +2,6 @@
 
 前端代码开源，后台以及服务端代码需要授权购买，DZ-SHOP-B2C AI版全源码无任何加密或者后门，如需全套源码 [点击这里访问在线客服](https://work.weixin.qq.com/kfid/kfca18c02fab14b6222)
 
-### 下载说明
-
-<font color=red>由于UNIAPP上传的插件代码会自动改变结构，导致无法运行，请移步到github进行下载。</font>[下载地址](https://github.com/jack6512017/dz-shop-b2c-ai)
-
 ### 运行环境
 
 本地环境需要安装 Node.js、pnpm（或cnpm）。
